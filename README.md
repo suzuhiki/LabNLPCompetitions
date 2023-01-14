@@ -1,6 +1,8 @@
 # lab-competition-01
 研究室の新人研修の第一回コンペの記録
 
+コンペに利用したデータは念のため削除しています
+
 # Twitter感情極性分析
 
 - タスク
@@ -20,9 +22,7 @@
 - [StepEstimator_v.0.0.1_negative_LightGBM.ipynb](https://github.com/suzuhiki/lab-competition-01/blob/main/01/StepEstimator_v.0.0.1_negative_LightGBM.ipynb)
 - [StepEstimator_v.0.0.1_positive_LightGBM.ipynb](https://github.com/suzuhiki/lab-competition-01/blob/main/01/StepEstimator_v.0.0.1_positive_LightGBM.ipynb)
 
-大まかなバージョン情報はこのissueのコメントからも確認できます。
-コミットメッセージの後に```Best```と書いてあるのがスコアを更新した実装です。
-stopword辞書の変更で少しスコアが下がっていますが、最新のコミットでも同じように動かせます。
+stopword辞書の変更で少しスコアが下がっていますが、この実行ファイルでも同じようなスコアがでます。
 ```StepEstimator```が一番スコアが出たので簡単に概要を書いておきます。
 
 ## StepEstimator
