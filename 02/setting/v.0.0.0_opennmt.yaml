@@ -1,0 +1,34 @@
+data:
+    train:
+        path_src: ../data/text.train.txt
+        path_tgt: ../data/text.test.txt
+    valid:
+        path_src: ../data/text.dev.txt
+        path_tgt: ../data/label.dev.txt
+
+save_data: ./model
+src_vocab: ../tmp/02/vocab/vocab.ja
+
+# Model
+encoder_type: transformer
+decoder_type: transformer
+position_encoding: true
+enc_layers: 6
+dec_layers: 6
+heads: 8
+hidden_size: 512
+word_vec_size: 512
+transformer_ff: 2048
+
+# Optimization
+optim: "adam"
+learning_rate: 0.001
+
+# General
+save_model: /content/onmt-san
+gpu_ranks: [0]
+batch_size: 64
+report_every: 100
+train_steps: 20000
+valid_steps: 1000
+save_checkpoint_steps: 1000
