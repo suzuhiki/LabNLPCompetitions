@@ -1,5 +1,5 @@
-# lab-competition-01
-研究室の新人研修の第一回コンペの記録
+# LabNLPCompetitions
+研究室の新人研修のコンペの記録
 
 コンペに利用したデータは念のため削除しています
 
@@ -15,7 +15,7 @@
 - リーダーボードのスコアで評価
 
 # コード共有
-
+## 第1回　※ニューラルネットワークを使用しない
 最終提出で利用した実行ファイル
 
 - [StepEstimator_v.0.0.1_3class_LogisticR.ipynb](https://github.com/suzuhiki/lab-competition-01/blob/main/01/StepEstimator_v.0.0.1_3class_LogisticR.ipynb)
@@ -38,3 +38,7 @@ StepEstimatorというのは勝手に命名したモデルを複数使って推�
 ![1000](https://user-images.githubusercontent.com/82814541/209740318-3b168d98-c01a-4ca1-b7c2-2a49fc8ac4dd.png)
 
 ![1000](https://user-images.githubusercontent.com/82814541/209740326-e2704fce-29bc-4440-8b96-bb9648624867.png)
+
+## 第2回 ※外部データを使用しない（事前学習も不可）
+[v.0.0.1_selfattention.ipynb](02/script/v.0.0.1_selfattention.ipynb)を実装しました。
+参考にしたページ：[PyTorchでSelf Attentionによる文章分類を実装してみた](https://qiita.com/m__k/items/98ff5fb4a4cb4e1eba26)
