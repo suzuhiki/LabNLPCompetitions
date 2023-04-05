@@ -42,3 +42,9 @@ StepEstimatorというのは勝手に命名したモデルを複数使って推�
 ## 第2回 ※外部データを使用しない（事前学習も不可）
 [v.0.0.1_selfattention.ipynb](02/script/v.0.0.1_selfattention.ipynb)を実装しました。
 参考にしたページ：[PyTorchでSelf Attentionによる文章分類を実装してみた](https://qiita.com/m__k/items/98ff5fb4a4cb4e1eba26)
+
+## 第3回 制限なし
+Transformersライブラリ(hugging face)を用いて学習済みモデルを5クラス分類にファインチューニングしました。
+事前学習モデルは`cl-tohoku/bert-base-japanese-whole-word-masking`です。
+
+early stoppingを実装したコードで5epochの学習した結果、testデータのQuadratic Weighted Kappaの値が0.501でした。
